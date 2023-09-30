@@ -1,0 +1,74 @@
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px;
+    font-family: "Arial"; 
+}
+
+.menu{
+    background-color: red;
+    padding-top: 10px;
+    padding-right: 20px;
+    float:left;
+    width:150px;
+    height: 100%;
+}
+
+a{
+    color: white;
+    font-size: 14.5px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.content{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Arial";
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.text{
+    max-width:59%;
+    margin: 25px 0px 5px 23px;
+    text-align: justify;
+    float:left;
+}
+
+.text::first-letter{
+    color:red;
+    font-size: 20px;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+::selection {
+    color: white;
+    background-color: green;
+}
+
+li:hover{
+    background-color: green;
+}
